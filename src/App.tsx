@@ -2,22 +2,41 @@ import './App.css'
 
 const App = () => {
 
-  return (
+  return  (
+ <div>
+    <Header /> 
     <div>
-    <div>one div</div>
-    <div className="App">
+    <Techologies />
+    </div>
+  </div>
+  )
+}
+
+export default App
+
+const Techologies = () => {
+  return (
     <ul>
       <li>html</li>
       <li>css</li>
       <li>javascript</li>
       <li>react</li>
     </ul>
-    </div>
+  )
+}
+
+const Header = () => {
+  return (
+    <div>
+      <a href="#s">Home</a>
+      <a href="#">News Feed</a>
+      <a href="#">Messages</a>
     </div>
   )
 }
 
-export default App
+
+ 
 
 
 
