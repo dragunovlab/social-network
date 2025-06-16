@@ -4,7 +4,7 @@ import s from './Profile.module.css';
 const Profile = () => {
 
   return (
-    <div className='content'>
+    <div>
       <div>
         <img src="./src/assets/banner.webp" alt="" width={'1200px'} />
       </div>
